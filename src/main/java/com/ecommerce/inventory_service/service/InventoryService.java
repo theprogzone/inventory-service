@@ -6,7 +6,7 @@ public interface InventoryService {
 
     InventoryDTO getInventory(String skuCode);
 
-    void updateQuantity(InventoryDTO inventoryDTO);
+    InventoryDTO updateQuantity(InventoryDTO inventoryDTO);
 
     void createInventory(InventoryDTO inventoryDTO);
 }
